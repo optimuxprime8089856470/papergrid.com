@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "system_ui", -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: small;
+    
+    
+}
+.logoboard{
+    background-color: #000;
+    height: 90px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.Shoppify{
+    height: 40px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    border-bottom: .1px solid rgba(128, 128, 128, 0.232); 
+}
+.Shoppify:hover{
+    background-color: rgb(31, 30, 30);
+}
+.logoname{
+    color: white; 
+    padding-left: 160px;
+
+}
+.logo{
+    width: 115px;
+    height: 25px;
+    margin-left: 160px;
+    margin-top: 2%;
+    
+ 
+}
+.menu{
+    color: white;
+    display: flex;
+    margin-left: 25px;
+    flex: 1;
+    
+}
+#home {
+    text-decoration: underline ;
+  
+    
+}
+#home:hover{
+    text-decoration:  1.5px underline;
+}
+ul{
+    list-style-type: none;
+    display:flex;
+    margin-left: 5px;
+    margin-top: 2.1%;
+    gap: 10px;
+    
+}
+ul li{
+    font-size:15px;
+    letter-spacing: 1px;
+    
+}
+ul li a:link{
+    text-decoration: none;
+    
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+.cart{
+    font-size: 22px;
+    display: flex;
+    gap: 30px;
+    margin-top: 0;        
+    margin-right: 160px;  
+    position: static;     
+}
+.cart:hover{
+    font-size: 23px;
+}
+
+.notebooks{
+    margin-top: 35px;
+}
+.notebooks img{
+    width: 365px;
+    height: 370px;
+}
+#yellow{
+    padding-left: 145px;
+}
+.notebooks td{
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#pink{
+    padding-left: 145px;
+}
+#blue{
+    padding-left: 145px;
+}
+.author{
+    display: flex;
+}
+.left img{
+    margin-top: 20px;
+    height: 528px;
+    margin-left: 150px;
+    display: flex;
+}
+.right{
+    display: block;
+    margin-left: 80px;
+    margin-top: 90px;
+    position: relative;
+}
+.right h2{
+    font-weight: 50;
+    letter-spacing: 1px;
+}
+.right p{
+    font-size: 20px;
+    font-weight: 10;
+    letter-spacing: 1px;
+    color: #121212B3;
+
+}
+.right a{
+    background-color: black;
+    color: white;
+    text-decoration:none;
+    padding: 16px 35px;
+    display:inline-block;
+    margin-top: 20px;
+    letter-spacing:1px;
+    position: absolute;
+    left: 0%;
+    
+
+    
+
+}
+.right a:hover{
+    padding: 17px 36px;
+}
+.footer1{
+    background-color: #000;
+    text-decoration: underline none;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 1px solid rgb(49, 48, 48);
+}
+.footer1 a{
+    color: #ffffffb3;
+    text-decoration: underline 1px;
+    letter-spacing: 1px;
+}
+.footer1 div{
+    font-size: 17px;
+     font-weight: 10;
+   letter-spacing: 1px;
+    padding: 10px;
+
+}
+.footer1 #insta-icon{
+    font-size: 22px;
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+.footer1 a:hover{
+    color: white;
+    text-decoration: underline 2px;
+    
+}
+.footer2{
+    display: flex;
+    color: #ffffffb3;
+    background-color: black;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-bottom: 30px;
+
+}
+.footer2 ul{
+    display: flex;
+    padding-left: 5px;
+
+}
+.info li{
+    padding-left: 10px;
+     text-decoration: none;
+    list-style:disc;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    list-style: none;
+
+}
+.footer2 a{
+    text-decoration: none;
+    color: #ffffffb3;
+}
+
+.footer2 a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.footer2 .last{
+    padding-top: 20px;
+    font-size:12px ;
+    letter-spacing: 1px;
+    padding-left: 5px;
+
+}
